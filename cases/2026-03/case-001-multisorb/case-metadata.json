@@ -1,0 +1,13 @@
+{
+  "case_id": "case-001-multisorb",
+  "case_number": 1,
+  "prospect_name": "Multisorb Technologies",
+  "prospect_slug": "multisorb",
+  "date_created": "2026-03-04",
+  "discovery_status": "in_progress",
+  "proposal_status": "draft",
+  "services_proposed": [],
+  "estimated_value_usd": 0,
+  "key_contacts": [],
+  "next_steps": "Complete discovery interview"
+}
