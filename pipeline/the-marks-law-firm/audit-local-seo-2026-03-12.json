@@ -1,0 +1,160 @@
+{
+  "audit_type": "Local SEO/AEO",
+  "audit_version": "1.0",
+  "run_at": "2024-12-31T17:14:00Z",
+  "service_area": "St. Louis, MO",
+  "overall_score": 65,
+  "score_label": "needs_work",
+  "categories": [
+    {
+      "name": "GBP Optimization",
+      "score": 85,
+      "weight": 0.2,
+      "findings": [
+        {
+          "signal": "High GBP rating and review count with professional presentation",
+          "impact": "high",
+          "source": "gbp_data",
+          "data_available": true,
+          "recommendation": "Maintain current rating quality and continue encouraging reviews"
+        },
+        {
+          "signal": "Complete business information including accurate NAP and hours",
+          "impact": "medium",
+          "source": "gbp_data",
+          "data_available": true,
+          "recommendation": "Ensure GBP posts and Q&A sections are actively managed"
+        }
+      ]
+    },
+    {
+      "name": "Local Rankings",
+      "score": 40,
+      "weight": 0.2,
+      "findings": [
+        {
+          "signal": "Absent from local pack for 'divorce attorney' in St. Louis, MO despite strong GBP profile",
+          "impact": "high",
+          "source": "serp_data",
+          "data_available": true,
+          "recommendation": "Optimize for broader divorce attorney keywords and improve local relevance signals"
+        },
+        {
+          "signal": "Local pack position 3 for 'family law attorney' in St. Louis, MO, competing against Smith Law Firm (4.9 stars, 135 reviews) at #1 and Bardol Law Firm (4.8 stars, 169 reviews) at #2",
+          "impact": "medium",
+          "source": "serp_data",
+          "data_available": true,
+          "recommendation": "Despite highest review count (173), improve relevance signals to capture #1-2 positions"
+        },
+        {
+          "signal": "No organic top 10 presence for either target keyword in St. Louis, MO",
+          "impact": "high",
+          "source": "serp_data",
+          "data_available": true,
+          "recommendation": "Develop comprehensive content strategy targeting divorce and family law topics"
+        }
+      ]
+    },
+    {
+      "name": "Citation Consistency",
+      "score": 75,
+      "weight": 0.15,
+      "findings": [
+        {
+          "signal": "Consistent NAP display in GBP matches expected format for Creve Coeur address",
+          "impact": "medium",
+          "source": "gbp_data",
+          "data_available": true,
+          "recommendation": "Conduct full citation audit to ensure directory consistency across all platforms"
+        }
+      ]
+    },
+    {
+      "name": "Review Signals",
+      "score": 90,
+      "weight": 0.15,
+      "findings": [
+        {
+          "signal": "Excellent 4.9-star rating with 173 reviews exceeds attorney industry benchmark of 50+ reviews",
+          "impact": "high",
+          "source": "gbp_data",
+          "data_available": true,
+          "recommendation": "Continue current review generation strategy and maintain response rate"
+        },
+        {
+          "signal": "Review count of 173 is highest among immediate local pack competitors",
+          "impact": "medium",
+          "source": "gbp_data",
+          "data_available": true,
+          "recommendation": "Leverage review advantage in local optimization efforts"
+        }
+      ]
+    },
+    {
+      "name": "On-Page Local SEO",
+      "score": 50,
+      "weight": 0.15,
+      "findings": [
+        {
+          "signal": "Website analysis data unavailable to assess location page optimization",
+          "impact": "high",
+          "source": "website_analysis",
+          "data_available": false,
+          "recommendation": "Conduct full website audit to evaluate local schema, title tags, and location-specific content"
+        },
+        {
+          "signal": "GBP website URL suggests location-specific landing page exists for Creve Coeur",
+          "impact": "medium",
+          "source": "gbp_data",
+          "data_available": true,
+          "recommendation": "Ensure all service area locations have dedicated, optimized landing pages"
+        }
+      ]
+    },
+    {
+      "name": "AEO Readiness",
+      "score": 45,
+      "weight": 0.15,
+      "findings": [
+        {
+          "signal": "Website analysis unavailable to assess FAQ content and schema implementation",
+          "impact": "high",
+          "source": "website_analysis",
+          "data_available": false,
+          "recommendation": "Implement comprehensive FAQ schema and Q&A content targeting common divorce/family law questions"
+        },
+        {
+          "signal": "Missing evaluation of conversational content structure and entity clarity",
+          "impact": "medium",
+          "source": "website_analysis",
+          "data_available": false,
+          "recommendation": "Develop conversational content addressing 'What is...', 'How much does...' queries for AEO visibility"
+        }
+      ]
+    }
+  ],
+  "pricing_inputs": {
+    "complexity_multiplier": 1.6,
+    "scope_hours_estimate": 40,
+    "competitive_intensity": "high",
+    "current_state_severity": "needs_work",
+    "recommended_monthly": 2500,
+    "recommended_setup": 1200,
+    "recommended_ad_spend": 1200,
+    "pricing_rationale": "Needs_work severity (1.6x multiplier) due to absent from divorce attorney local pack and no organic visibility despite strong review profile. High competitive intensity evident from established local pack competitors with strong ratings. Setup includes website audit ($500), AEO content strategy implementation ($500), location page optimization ($200). Monthly includes ongoing AEO optimization ($500/mo) for AI visibility gaps."
+  },
+  "executive_summary": "The Marks Law Firm shows strong customer satisfaction signals with 4.9 stars and 173 reviews, ranking #3 for 'family law attorney' in St. Louis, MO local pack, but is completely absent from 'divorce attorney' local pack despite targeting both terms. The firm lacks organic visibility for both keywords and requires comprehensive website optimization and AEO implementation to capture its full market potential.",
+  "data_completeness": {
+    "available_sources": [
+      "gbp_data",
+      "serp_data",
+      "bd_input",
+      "case_context",
+      "service_catalog"
+    ],
+    "missing_sources": [
+      "website_analysis"
+    ],
+    "confidence_level": "medium"
+  }
+}
