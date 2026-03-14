@@ -15,6 +15,8 @@ Never fabricate data. Never generate placeholder copy in a published proposal. E
 - Assets (logos, screenshots) are stored in Supabase Storage and referenced by URL — no binary files in Git
 - Do not modify files outside the active case folder in clix-cases
 - Do not change status to `published` — human action only
+- **clix-cases has NO Supabase client** — it is a pure content/artifact store. Pulse orchestrates, clix-proposals renders. No direct database interaction from this repo.
+- **Proposal tracking** lives in the `proposals` schema (separate from `ops`). `case_id` is a TEXT slug (e.g. `case-002-tip-top-k9`), not a UUID FK to ops.
 
 ---
 
